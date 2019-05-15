@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <title>
+            Sample Website: Contact Us
+        </title>
+
+        <link rel="icon" href="images/2000px-Flag_of_Ethiopia.ico" type="image/x-icon">
+
+        <link href = "css-files/index.css" rel = "stylesheet">
+        
+        <style>
+             
+             body 
+            {
+                /*background-color:rgb(0, 102, 0);*/
+                background-image: url("images/site-background-image.png");
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .error
+            {
+                color: #FF0000;
+            }
+
+            ul 
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                border-radius: 25px;
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0;
+            }
+    
+            li 
+            {
+                float: left;
+            }
+    
+            li a 
+            {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .head-title
+            {
+                background-image: url("images/confetti.gif"), url("images/wrinkled-paper.jpg");
+                border-style: solid;
+                border-color: #333;
+                text-align: center;
+                width: 60%;
+                box-sizing: border-box;
+                margin: 30px auto;
+                border-radius: 20px;
+            }
+
+            .visitor-email
+            {
+                position:absolute;
+                padding: 5px;
+                background-color:#CCC;
+                border: 1px solid grey;
+            }
+
+            .column-1 
+            {
+                float: left;
+                width: 45.33%;
+                padding: 20px;
+            }
+        
+            .row-1::after 
+            {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "contact-us.html">Contact Us</a></li>
+        </ul>
+
+        <h1 class = "head-title">
+            Contact Us
+        </h1>
+
+
+        <div class = "row-1">
+            
+            <div class = "column-1">
+                <p>Email: <a href = "mailto:random@nothingelse.com">random@nothingelse.com</a></p>
+                <p>Phone Number: (000) 000-0000</p>
+            </div>
+
+            <div class = "column-1">
+                <img src = "images/Iron-Man_Thumbs-Up.gif" width = "640" height = "360" alt = "A gif of Robert Downey Jr. playing Iron Man in Iron Man 2 giving a thumbs up to the Senate in the movie.">
+
+            </div>
+
+        </div>
+    </body>
+
+
+
+</html>
