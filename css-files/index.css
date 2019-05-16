@@ -1,0 +1,56 @@
+body 
+{
+    /*background-color:rgb(0, 102, 0);*/
+    background-image: url("images/site-background-image.png");
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #111;
+}
+
+.active 
+{
+    background-color: #4CAF50;
+}
+
+.head-title
+{
+    background-image: url("images/confetti.gif"), url("images/wrinkled-paper.jpg");
+    border-style: solid;
+    border-color: #333;
+    text-align: center;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    border-radius: 20px;
+}

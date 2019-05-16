@@ -9,46 +9,27 @@
 
         <link rel="icon" href="images/2000px-Flag_of_Ethiopia.ico" type="image/x-icon">
 
-        <!--<link href = "css-files/index-smallscreen.css" media = "screen and (max-width: 480px)" rel = "stylesheet">-->
+        <link rel = "stylesheet" type = "text/css" href = "css-files/index.css">
     
         <style>
-        
+        @media screen and (max-width: 480px)
+        {
             body 
             {
-                /*background-color:rgb(0, 102, 0);*/
                 background-image: url("images/site-background-image.png");
                 font-size: 28px;
                 font-family: Arial, Helvetica, sans-serif;
             }
-    
-            .column-1 
-            {
-                float: left;
-                width: 45.33%;
-                padding: 20px;
-            }
-        
-            .row-1::after 
-            {
-                content: "";
-                clear: both;
-                display: table;
-            } 
 
-            .column-2 
+        }
+            
+            body 
             {
-                float: left;
-                width: 45.33%;
-                padding: 20px;
+                background-image: url("images/site-background-image.png");
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
             }
-        
-            .row-2::after 
-            {
-                content: "";
-                clear: both;
-                display: table;
-            } 
-    
+
             ul 
             {
                 list-style-type: none;
@@ -57,7 +38,7 @@
                 overflow: hidden;
                 background-color: #333;
                 border-radius: 25px;
-                position: -webkit-sticky; /* Safari */
+                position: -webkit-sticky;
                 position: sticky;
                 top: 0;
             }
@@ -105,7 +86,6 @@
     
 
     <body>
-
         <ul>
             <li><a href = "index.html">Home</a></li>
             <li><a href = "contact-us.html">Contact Us</a></li>
@@ -118,7 +98,7 @@
         <table>
             <tr>
                 <th>
-                    <p style = "text-align: left">You asked me how I would make a website, this is basically how it would look like if I were doing it with a simple design. I thought about using a seperate file to constuct the styling of the website, but I decided that it would be more convinient for any future re-design done if it were all embedded within the html file. <b>I'm typing this out now to show you the possiblites of images and text together on the website, including the possible text formatting as well.</b><br/><br/> <i style = "font-family:'Times New Roman', Times, serif">As you can see I've made a page break between the text and changed the font of this page break.</i></p>
+                    <p style = "text-align: center">You asked me how I would make a website, this is basically how it would look like if I were doing it with a simple design. I thought about using a seperate file to constuct the styling of the website, but I decided that it would be more convinient for any future re-design done if it were all embedded within the html file. <b>I'm typing this out now to show you the possiblites of images and text together on the website, including the possible text formatting as well.</b><br/><br/> <i style = "font-family:'Times New Roman', Times, serif">As you can see I've made a page break between the text and changed the font of this page break.</i></p>
                 </th>
 
                 <th>
@@ -139,9 +119,6 @@
             </tr>
 
         </table>
-
-        </div>
-
 
 
     </body>
